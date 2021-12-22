@@ -23,6 +23,11 @@ pipeline{
          echo "Bonjour for release"
          }
      }
+     stage('release00'){
+         steps {
+         echo "Bonjour for release"
+         }
+     }
      
      }
 

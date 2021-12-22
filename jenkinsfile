@@ -25,7 +25,7 @@ pipeline{
      }
      stage('release00'){
          steps {
-         echo "Bonjour for release"
+         echo "Bonjour for release00 for testing"
          }
      }
      

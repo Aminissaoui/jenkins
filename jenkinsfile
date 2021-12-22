@@ -17,7 +17,12 @@ pipeline{
          echo "Bonjour for build"
          }
      }
-    
+     
+    stage('release'){
+         steps {
+         echo "Bonjour for release"
+         }
+     }
      
      }
 

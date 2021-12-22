@@ -1,0 +1,27 @@
+pipeline{
+ agent any
+     stages{
+     stage('test'){
+         steps {
+         
+         echo "Bonjour for testing"
+         }
+     }   
+     stage('QA'){
+         steps {    
+         echo "Bonjour for QA"
+         }
+     }
+     stage('deploy'){
+         steps {
+         echo "Bonjour for build
+         }
+     }
+    
+     
+     }
+
+
+
+
+}
